@@ -1,6 +1,5 @@
 import login_page from "../POM/login_page"
 import home_page from "../POM/home_page"
-import 'cypress-file-upload'
 
 const login_page_obj = new login_page()
 const home_page_obj = new home_page()

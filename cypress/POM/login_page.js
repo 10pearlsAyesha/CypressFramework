@@ -1,4 +1,5 @@
 class login_page {
+
     get user_name () {
         return cy.get('#login_userName')
     }

@@ -36,15 +36,14 @@ import {
   validation_id_path
 } from '../POM/file_paths/id_paths.js'
 
-describe('Quality Agent Forms', () => {
+describe('Craete the end to end validation', () => {
 
- /*beforeEach(() => {
+ /* beforeEach(() => {
     cy.viewport(1200, 800)
     cy.visit('/')
   })*/
 
-  it('Login and create the new validation', () => {  
-    //cy.visit('/')  
+  it('Loging', () => {    
     cy.login_app()    
     cy.intercept({
       method: 'POST',
